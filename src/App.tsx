@@ -1,33 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import 'react'
 import './App.css'
 
+function scroll_through(){
+  
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <h1>Welcome...</h1>
+        <p onScroll={ scroll_through} id='scroll'></p>
+        <p>To a safe space for men to express themselves, learn and grow.
+        </p>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          With advice and support from trusted and succesful male models.
+        </p>
+        <p> 
+          join us as we disscus, grow and florish.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <div>
+        <ul>
+          <li>Topics</li>
+          <li></li>
+        </ul>
+      </div>
     </>
   )
 }
