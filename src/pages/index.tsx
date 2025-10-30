@@ -20,12 +20,7 @@ export default function Index(){
             </p>
         </div>
 
-        <div>
-            <ul>
-            <li>Topics</li>
-            <li></li>
-            </ul>
-        </div>
+        
         </>
     )
 }
