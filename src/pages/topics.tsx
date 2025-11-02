@@ -10,11 +10,11 @@ export default function Topics(){
             </div>
 
             <div>
-                <navigator style={{display: "inline-block", gap : 5px}}>
+                <nav style={{display: "inline-block", gap : 5px}}>
                     <p>Trending topics</p>
                     <p>Search</p>
                     <p>Create Topic</p>
-                </navigator>
+                </nav>
             </div>
 
             <div>
