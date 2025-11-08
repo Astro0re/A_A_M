@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Index from './pages/index'
 import Topics from './pages/topics'
+import sign_up from './pages/signup'
 
 function App() {
   

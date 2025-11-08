@@ -1,5 +1,4 @@
-import './index.css'
-import cre_to from '../components/create_topic'
+
 
 export default function Topics(){
     return(
