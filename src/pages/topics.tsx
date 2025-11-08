@@ -1,5 +1,3 @@
-
-
 export default function Topics(){
     return(
         <>
@@ -9,7 +7,7 @@ export default function Topics(){
             </div>
 
             <div>
-                <nav style={{display: "inline-block", gap : 5px}}>
+                <nav>
                     <p>Trending topics</p>
                     <p>Search</p>
                     <p>Create Topic</p>
@@ -21,3 +19,4 @@ export default function Topics(){
             </div>
         </>
     )
+}
