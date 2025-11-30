@@ -1,9 +1,12 @@
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
 
 function scroll_through(){
   
 }
 
 export default function Index(){
+    const navigate = useNavigate();
+
     return(
         <>
                 <div>
@@ -21,5 +24,5 @@ export default function Index(){
 
         
         </>
-    )
+    );
 }
